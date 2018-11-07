@@ -1,0 +1,11 @@
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/bin/Debug/netcoreapp2.1/opdracht03.deps.json
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/bin/Debug/netcoreapp2.1/opdracht03.runtimeconfig.json
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/bin/Debug/netcoreapp2.1/opdracht03.runtimeconfig.dev.json
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/bin/Debug/netcoreapp2.1/opdracht03.dll
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/bin/Debug/netcoreapp2.1/opdracht03.pdb
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/obj/Debug/netcoreapp2.1/opdracht03.csprojAssemblyReference.cache
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/obj/Debug/netcoreapp2.1/opdracht03.csproj.CoreCompileInputs.cache
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/obj/Debug/netcoreapp2.1/opdracht03.AssemblyInfoInputs.cache
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/obj/Debug/netcoreapp2.1/opdracht03.AssemblyInfo.cs
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/obj/Debug/netcoreapp2.1/opdracht03.dll
+/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/obj/Debug/netcoreapp2.1/opdracht03.pdb
