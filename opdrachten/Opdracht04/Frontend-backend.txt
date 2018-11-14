@@ -1,0 +1,29 @@
+# **Frontend &amp; backend Frameworks**
+
+Frontend - 5 voorbeelden
+
+- AngularJS
+- ReactJS
+- VueJS
+- EmberJS
+- MeteorJS
+
+Backend - 5 voorbeelden
+
+- Symfony
+- Laravel
+- Zend
+- Codelgniter
+- Python
+
+Meest populaire Framework combinaties:
+
+Frontend - Backend
+
+-  AngularJS - Laravel
+- ReactJS - Symfony
+- Javascript - PHP
+
+
+2
+
