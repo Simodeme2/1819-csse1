@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/Fibonacci/Fibonacci.csproj",
+      "projectUniqueName": "/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/Opdracht02/Fibonacci/Fibonacci.csproj",
       "projectName": "Fibonacci",
-      "projectPath": "/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/Fibonacci/Fibonacci.csproj",
+      "projectPath": "/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/Opdracht02/Fibonacci/Fibonacci.csproj",
       "packagesPath": "/Users/SimonMac/.nuget/packages/",
-      "outputPath": "/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/opdracht03/Fibonacci/obj/",
+      "outputPath": "/Users/SimonMac/code/gdmgent-1819-csse1/opdrachten/Opdracht02/Fibonacci/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
