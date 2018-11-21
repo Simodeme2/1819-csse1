@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.Concurrent;
+using System.Linq;
 
 namespace opdracht03
 {
@@ -8,23 +12,32 @@ namespace opdracht03
         {
             Console.WriteLine("Hello World!");
 
-            tafel(0);
-            tafel(1);
-            tafel(2);
-            tafel(3);
-            tafel(4);
-            tafel(5);
-            tafel(6);
-            tafel(7);
-            tafel(8);
-            tafel(9);
-            tafel(10);
-        }
-        static void tafel(int getal) {
-            for (int teller = 0; teller <= 10; teller++) {
-                int resultaat = teller * getal;
-                Console.WriteLine(teller + " * " + getal + " = " + resultaat);
-            }
+            var menus = new List<Item>  
+        {  
+            new Item() { Name="plat water", Price = 1},  
+            new Item() { Name="cola (25cl)", Price = 1.5},  
+            new Item() { Name="cola (33cl)", Price = 2},  
+            new Item() { Name="witte wijn", Price = 3},  
+            new Item() { Name="pils", Price = 2},  
+            new Item() { Name="toast", Price = 5},  
+            new Item() { Name="kaasplank", Price = 4}
+        };  
+  
+    foreach (Item menu in menus)  
+    {  
+        Console.WriteLine(menu.Name + "  " + menu.Price);  
+    } 
+  
+    // Output:  
+    //  Tadpole  400  
+    //  Pinwheel  25  
+    //  Milky Way  0  
+    //  Andromeda  3  
         }
     }
+    public class Item  
+    {  
+        public string Name { get; set; }  
+        public double Price { get; set; }  
+    }  
 }

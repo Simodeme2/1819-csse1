@@ -23,7 +23,3 @@ Frontend - Backend
 -  AngularJS - Laravel
 - ReactJS - Symfony
 - Javascript - PHP
-
-
-2
-
