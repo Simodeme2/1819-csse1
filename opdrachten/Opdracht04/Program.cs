@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace test
 {
@@ -6,19 +7,23 @@ namespace test
     {
         static void Main(string[] args)
         {
-            MenuItems menuItem = new MenuItems();
-            menuItem.name = "melk";
+            List<MenuItem> list = new List<MenuItem>();
+            list.Add(new MenuItem(12, "Steak"));
+            list.Add(new MenuItem(2, "Koffie"));
+            list.Add(new MenuItem(1, "Cola"));
+            list.Add(new MenuItem(15, "EUR", "Friet met stoofvlees", "Voedsel"));
+            list.Add(new MenuItem(6, "EUR", "Friet en worst", "Voedsel"));
+            list.Add(new MenuItem(11, "EUR", "pasta", "Voedsel"));
+            list.Add(new MenuItem(30, "EUR", "Cote a los", "Voedsel"));
+            list.Add(new MenuItem(2, "EUR", "Sprite", "drank"));
+            list.Add(new MenuItem(5, "EUR", "Pita", "Voedsel"));
+            list.Add(new MenuItem(5, "EUR", "Friet met frikandel", "Voedsel"));
 
-            Console.WriteLine("Name: " + menuItem.name);
-
-            // MenuItems.Product product = new MenuItems.Product();
-            // product.name = "Taart";
-
-            // MenuItems.Price price = new MenuItems.Price();
-            // price.waarde = 24;
-
-            // Console.WriteLine(product.name);
-            // Console.WriteLine(price.waarde);
+            
+            foreach(MenuItem item in list)
+            {
+                Console.WriteLine(item.ToString());
+            }
         }
     }
 }
